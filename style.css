@@ -1,0 +1,199 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+
+/* navigation bar */
+#navbar{
+    display : flex;
+    align-items: center;
+}
+
+#navbar
+{
+    position :sticky;
+}
+
+/* logo and image */
+
+#logo{
+    margin: 10px 30px;
+}
+
+#logo img{
+    margin: 3px 6px;
+    height :56px;
+}
+
+/* list styling */
+#navbar ul{
+    display : flex;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+#navbar::before{
+    content : "";
+    background-color: rgb(127, 136, 7);
+    position: absolute;
+    height : 100%;
+    width :100%;
+    z-index :-1;
+    opacity : 0.8;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    color :white;
+    display : block;
+    padding : 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+#navbar ul li a:hover{
+    color :black;
+    background-color: white;
+}
+
+/* home Section */
+#home
+{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('img/bg5.jpg');
+    height:100px;
+    background-size:cover  ;
+    background-position: center;
+    display : flex;
+    flex-direction: column;
+    padding :55px 200px;
+    height : 600px;
+    justify-content: center;
+    align-items: center;
+}
+#home p{
+    color :white;
+    text-align: center;
+    font-size :1.5rem;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.h-primary
+{
+    color : white;
+    font-size : 3.8rem;
+    padding :12px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.btn
+{
+    padding : 6px 20px;
+    border :2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor : pointer;
+    transition: 0.6s;
+}
+
+#fastfood
+{
+    width:100%;
+    padding :70px 0;
+    background: #efefef ;
+}
+
+.title-text h1
+{
+    position: center;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    font-size : 3.8rem;
+
+}
+.service-box
+{
+    width :80%;
+    display :flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin :auto;
+}
+
+.single-service
+{
+    flex-basis : 48%;
+    text-align: center;
+    border-radius : 7px;
+    margin-bottom: 20px;
+    color :white;
+    position: relative;
+}
+
+.single-service img
+{
+    padding-top: 10%;
+    width :100%;
+    border-radius: 7px;
+}
+
+.overlay
+{
+    width : 100%;
+    height:100%;
+    position: absolute;
+    top: 0;
+    border-radius: 7px;
+    cursor: pointer;
+    background: linear-gradient(rgba(0,0,0,0.5),#009688);
+    opacity: 0;
+    transition: 1s;
+}
+
+.single-service:hover .overlay
+{
+    opacity:1;
+}
+
+.desc
+{
+    width:80%;
+    position: absolute;
+    bottom: 40%;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+.desc h1
+{
+    font-size: 50px;
+}
+
+#fastfood
+{
+    padding-top:5%;
+    padding-bottom: 15%;
+}
+
+#Dinner
+{
+    padding-top:5%;
+    padding-bottom: 10%;
+}
+
+#SeaFood
+{
+    padding-bottom: 15%;
+}

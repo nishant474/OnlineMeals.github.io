@@ -1,0 +1,117 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body
+{
+    background-image: url(img/login-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #efefef;
+}
+
+.contact-box
+{
+    width:500px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 0 #999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+
+form
+{
+    margin: 35px;
+}
+.input-field
+{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    border : 1px solid #777;
+    border-radius: 14px;
+    outline: none;
+}
+
+.textarea-field
+{
+    height: 150px;
+    padding-top: 10px;
+}
+
+.btn
+{
+    border-radius: 20px;
+    color:#fff;
+    margin-top: 18px;
+    background-color: #06921b;
+    font-size: 20px;
+    border:none;
+    cursor: pointer;
+}
+
+#navbar{
+    display : flex;
+    align-items: center;
+}
+
+#navbar
+{
+    position :sticky;
+}
+
+/* logo and image */
+
+#logo{
+    margin: 10px 30px;
+}
+
+#logo img{
+    margin: 3px 6px;
+    height :56px;
+}
+
+/* list styling */
+#navbar ul{
+    display : flex;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+#navbar::before{
+    content : "";
+    background-color: black;
+    position: absolute;
+    height : 100%;
+    width :100%;
+    z-index :-1;
+    opacity : 0.3;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    color :white;
+    display : block;
+    padding : 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color :black;
+    background-color: white;
+}
+#home p{
+    color :white;
+    text-align: center;
+    font-size :1.5rem;
+    font-family: 'Baloo Bhai 2', cursive;
+}
