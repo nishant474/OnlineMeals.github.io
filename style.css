@@ -68,7 +68,7 @@ html
 /* home Section */
 #home
 {
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('img/bg5.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('bg5.jpg');
     height:100px;
     background-size:cover  ;
     background-position: center;
