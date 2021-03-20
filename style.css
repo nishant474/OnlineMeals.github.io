@@ -231,7 +231,14 @@ html
 @media(max-width:418px)
 {
     html{
-        font-size: 25%;
+        font-size: 20%;
+    }
+}
+
+@media(max-width:374px)
+{
+    html{
+        font-size: 5%;
     }
 }
 
