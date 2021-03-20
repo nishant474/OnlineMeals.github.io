@@ -10,7 +10,7 @@ html{
     font-size: 62.5%;
 }
 body{
-    background-image: url('img/login-background.jpg');
+    background-image: url('login-background.jpg');
     background-size:cover  ;
     background-repeat: no-repeat;
     justify-content: center;
